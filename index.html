@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="da-dk">
+<head>
+<title>Per Schulze - IT ekspert i procesoptimering og systemimplementering i virksomheden</title>
+	<meta charset="utf-8" />
+	<meta name="description" content="Per Schulze er formidler af IT ekspertise. En IT-guru, server administrator, systemkonsulent, løber og musiker." />
+	<meta name="keywords" content="Per Schulze, IT, procesoptimering, PowerShell, Scripts, youtuber, løber, Azure, Office 365, SAAS, personlighed, imødekommende" />
+	<meta name="author" content="Per Schulze" />
+	<meta name="robots" content="index, follow">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+	<link rel="Shortcut Icon" href="/favicon.ico" type="image/x-icon" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="/style.css?4" type="text/css" media="screen" />
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+</head>
+<body>
+
+<main class="container">
+	<section class="content">
+		<h1>Per Schulze</h1>
+		<p id="desc"></p>
+		<a href="mailto:per.schulze@gmail.com" title="E-mail Per Schulze">Kontakt</a>
+	</section>
+
+</main>
+<footer>
+	<a class="yt" href="https://www.youtube.com/channel/UCagYvF0EKzBfKaiOhlMQZTw" title="Per Schulze på YouTube"><i class="fab fa-youtube"></i></a>
+	<a class="an" href="https://anchor.fm/tektalk" title="TekTalk Podcast"><i class="fa fa-podcast"></i></a>
+	<a class="tw" href="https://twitter.com/perschulze" title="Per Schulze på Twitter"><i class="fab fa-twitter"></i></a>
+	<a class="fb" href="https://www.facebook.com/perschulze" title="Per Schulze på Facebook"><i class="fab fa-facebook-f"></i></a>
+	<a class="li" href="https://www.linkedin.com/in/perschulze/" title="Per Schulze på LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+</footer>
+
+<script>
+var showText = function (target, message, index, interval) {
+	if (index < message.length) {
+		$(target).append(message[index++]);
+		setTimeout(function () { showText(target, message, index, interval); }, interval);
+	}
+}
+$(function () {
+	showText("#desc", "Ekspert i IT og formidling", 0, 100);
+});
+</script>
+
+</body>
+</html>
+
